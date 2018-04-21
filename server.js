@@ -4,8 +4,8 @@ var path = require('path')
 
 
 //express app
-var app = app.express()
-var PORT = process.env.PORT
+var app = express()
+var PORT = process.env.PORT || '3000'
 
 //Static path to public
 app.use(express.static(path.join(__dirname, './app/public')))

@@ -131,7 +131,6 @@ var friendsArray = [
 	{
 		name: 'Alyssa Lee',
 		photo: 'https://media.licdn.com/dms/image/C4D03AQEl1Hu6lwdqIA/profile-displayphoto-shrink_200_200/0?e=1528207200&v=alpha&t=LrA1AYdZhf_mkvxJR7XIEMdEOsyMP75mW7_abV79dZA',
-        '3',
             scores: [
             '1',
             '2',
