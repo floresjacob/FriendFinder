@@ -18,10 +18,9 @@ module.exports = function(app){
         var scores = []
         //friend in the array that is the best match according to totalDiff; starts at 0
         var bestFriend = 0
-
+        var totalDiff = 0
         for(var i = 0; i<friends.length; i++){
             //set totalDiff to 0 to begin survey comparison between user and ppl in array
-            var totalDiff = 0
             //compares user scores to potential friend scores
             for(var j = 0; j<userScores.length; j++){
                 totalDiff += (Math.abs(parseInt(friends[i].scores[j]))) - parseInt(userScores[j])
